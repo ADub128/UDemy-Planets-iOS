@@ -14,13 +14,14 @@
 		7E228AF818EB8FDC004612A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228AF718EB8FDC004612A5 /* main.m */; };
 		7E228AFC18EB8FDC004612A5 /* OTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228AFB18EB8FDC004612A5 /* OTWAppDelegate.m */; };
 		7E228AFF18EB8FDC004612A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E228AFD18EB8FDC004612A5 /* Main.storyboard */; };
-		7E228B0218EB8FDC004612A5 /* OTWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228B0118EB8FDC004612A5 /* OTWViewController.m */; };
 		7E228B0418EB8FDC004612A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E228B0318EB8FDC004612A5 /* Images.xcassets */; };
 		7E228B0B18EB8FDC004612A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E228B0A18EB8FDC004612A5 /* XCTest.framework */; };
 		7E228B0C18EB8FDC004612A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E228AEB18EB8FDC004612A5 /* Foundation.framework */; };
 		7E228B0D18EB8FDC004612A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E228AEF18EB8FDC004612A5 /* UIKit.framework */; };
 		7E228B1518EB8FDD004612A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E228B1318EB8FDC004612A5 /* InfoPlist.strings */; };
 		7E228B1718EB8FDD004612A5 /* Out_of_This_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228B1618EB8FDD004612A5 /* Out_of_This_WorldTests.m */; };
+		7E228B2218EB91CB004612A5 /* OTWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228B2118EB91CB004612A5 /* OTWOuterSpaceTableViewController.m */; };
+		7E228B2518EDDAFB004612A5 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E228B2418EDDAFB004612A5 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		7E228AFA18EB8FDC004612A5 /* OTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTWAppDelegate.h; sourceTree = "<group>"; };
 		7E228AFB18EB8FDC004612A5 /* OTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTWAppDelegate.m; sourceTree = "<group>"; };
 		7E228AFE18EB8FDC004612A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E228B0018EB8FDC004612A5 /* OTWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTWViewController.h; sourceTree = "<group>"; };
-		7E228B0118EB8FDC004612A5 /* OTWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTWViewController.m; sourceTree = "<group>"; };
 		7E228B0318EB8FDC004612A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E228B0918EB8FDC004612A5 /* Out of This WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of This WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E228B0A18EB8FDC004612A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7E228B1218EB8FDC004612A5 /* Out of This WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of This WorldTests-Info.plist"; sourceTree = "<group>"; };
 		7E228B1418EB8FDC004612A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E228B1618EB8FDD004612A5 /* Out_of_This_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_This_WorldTests.m; sourceTree = "<group>"; };
+		7E228B2018EB91CB004612A5 /* OTWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTWOuterSpaceTableViewController.h; path = ../OTWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		7E228B2118EB91CB004612A5 /* OTWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTWOuterSpaceTableViewController.m; path = ../OTWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		7E228B2318EDDAFB004612A5 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		7E228B2418EDDAFB004612A5 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				7E228AFA18EB8FDC004612A5 /* OTWAppDelegate.h */,
 				7E228AFB18EB8FDC004612A5 /* OTWAppDelegate.m */,
 				7E228AFD18EB8FDC004612A5 /* Main.storyboard */,
-				7E228B0018EB8FDC004612A5 /* OTWViewController.h */,
-				7E228B0118EB8FDC004612A5 /* OTWViewController.m */,
+				7E228B2018EB91CB004612A5 /* OTWOuterSpaceTableViewController.h */,
+				7E228B2118EB91CB004612A5 /* OTWOuterSpaceTableViewController.m */,
 				7E228B0318EB8FDC004612A5 /* Images.xcassets */,
 				7E228AF218EB8FDC004612A5 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		7E228AF218EB8FDC004612A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E228B2318EDDAFB004612A5 /* AstronomicalData.h */,
+				7E228B2418EDDAFB004612A5 /* AstronomicalData.m */,
 				7E228AF318EB8FDC004612A5 /* Out of This World-Info.plist */,
 				7E228AF418EB8FDC004612A5 /* InfoPlist.strings */,
 				7E228AF718EB8FDC004612A5 /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E228B2218EB91CB004612A5 /* OTWOuterSpaceTableViewController.m in Sources */,
 				7E228AF818EB8FDC004612A5 /* main.m in Sources */,
-				7E228B0218EB8FDC004612A5 /* OTWViewController.m in Sources */,
 				7E228AFC18EB8FDC004612A5 /* OTWAppDelegate.m in Sources */,
+				7E228B2518EDDAFB004612A5 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
